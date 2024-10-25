@@ -1,10 +1,12 @@
 {
-  "homepage": "https://<your-github-username>.github.io/<your-repository-name",
+  "homepage": "https://NoavanBentem.github.io/PWA_Globe",
   "name": "globe",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
